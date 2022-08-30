@@ -4,11 +4,5 @@
     "lname": { "string": {} },
     "email": { "string": {} },
     "emailoptin": { "boolean": {} }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
   }
 }
