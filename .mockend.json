@@ -1,9 +1,9 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+  "User": {
+    "fname": { "string": {} },
+    "lname": { "string": {} },
+    "email": { "string": {} },
+    "emailoptin": { "boolean": {} }
   },
   "Comment": {
     "body": { "string": {} },
