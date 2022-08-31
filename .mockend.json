@@ -3,7 +3,7 @@
     "fname": { "regexp": "[A-Z][a-z]{5,10}" },
     "lname": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }, 
-    "emailoptin": { "boolean": {} },
+    "emailoptin":  { "boolean": {} },
     "token": { "regexp": "[A-Z][a-z]{20,30}" } 
   }
 }
