@@ -1,9 +1,9 @@
 {
-  "User": {
-    "fname": { "regexp": "[A-Z][a-z]{5,10}" },
-    "lname": { "regexp": "[A-Z][a-z]{5,10}" },
-    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "termsoptin": { "boolean": {} },
-    "emailoptin":  { "boolean": {} }
+  "Contact": {
+    "firstname": { "regexp": "[A-Z][a-z]{5,10}" },
+    "lastname": { "regexp": "[A-Z][a-z]{5,10}" },
+    "phonenumbers": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+    "emails": { "array": {} },
+    "emailoptin":  { "array": {} }
   }
 }
