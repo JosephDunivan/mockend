@@ -2,13 +2,14 @@
   "Contact": {
     "firstname": { "regexp": "[A-Z][a-z]{5,10}" },
     "lastname": { "regexp": "[A-Z][a-z]{5,10}" },
-    "phonenumbers": [
-      {"phone1":  { "regexp": "[0-9]{10}" }},
-      {"phone2":  { "regexp": "[0-9]{10}" }}
-    ],
-    "emails":[
-      {"emailaddress1":  { "regexp": "[0-9]{10}" }},
-      {"emailaddress2":  { "regexp": "[0-9]{10}" }}
-    ]
+    "phonenumbers": { 
+      "regexp": "^[0-9]{10}$",
+      "minlength": 10,
+      "maxlength": 10
+    },
+    "emails":
+     {
+        "email": "email"
+     }
   }
 }
